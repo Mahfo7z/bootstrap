@@ -1,0 +1,41 @@
+body {
+    font-family: tajawal;
+    overflow-x: hidden;
+}
+
+header {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/2000_5cee6d43ad72d.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar-brand,
+.nav-link {
+    color: rgb(0, 68, 255);
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-right: 30px !important;
+    text-align: center;
+}
+
+.nav-link.active,
+.nav-link:hover {
+    color: white !important;
+    font-weight: bold;
+}
+
+.p {
+    padding: 200px !important;
+}
+
+.main-cat {
+    width: 100%;
+    height: 400px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 212, 255, 0.14329481792717091) 100%) !important;
+    /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)); */
+}
